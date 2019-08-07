@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.vz04.grade.mapper.course.CourseMappper">
+
+    <!--根据课程名称查看课程是否已经存在-->
+    <select id="checkCourse" resultType="com.vz04.grade.pojo.course.CourseBean">
+        SELECT TOP(1) [Course_ID] AS [courseId],[Course_Title] AS [courseTitle]
+        FROM vz04.Course
+        WHERE Course_Title = #{courseTitle}
+    </select>
+
+    <!--添加课程-->
+    <insert id="addCourse">
+        INSERT INTO vz04.Course([Course_Title],[InUser])
+        VALUES(#{courseTitle},N'vz04')
+    </insert>
+
+    <!--查看全部课程-->
+    <select id="checkAllCourse" resultType="com.vz04.grade.pojo.course.CourseBean">
+        SELECT [Course_ID] AS [courseId],[Course_Title] AS [courseTitle]
+        FROM vz04.Course
+    </select>
+
+    <!--修改课程名称-->
+    <update id="alterCourse">
+        UPDATE vz04.Course
+        SET [Course_Title] = #{courseTitle}, [LastEditUser] = N'vz04', [LastEditDate] = GETDATE()
+        WHERE [Course_ID] = #{courseId}
+    </update>
+
+    <!--删除课程-->
+    <delete id="deleteCourse">
+        DELETE FROM vz04.Course WHERE [Course_ID]=#{courseId}
+    </delete>
+</mapper>    

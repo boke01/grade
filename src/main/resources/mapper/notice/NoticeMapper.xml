@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.vz04.grade.mapper.notice.NoticeMapper">
+
+    <!--查询公告-->
+    <select id="checkNotice" resultType="com.vz04.grade.pojo.notice.NoticeBean">
+        SELECT [Notice_ID] AS [noticeId], [Classes_ID] AS [classesId], [Notice] AS [notice]
+        FROM vz04.Notice
+        WHERE [Classes_ID] = #{classesId}
+    </select>
+
+    <!--添加公告-->
+    <insert id="addNotice">
+        INSERT INTO vz04.Notice([Classes_ID],[Notice],[InUser])
+        VALUES(#{classesId},#{notice},N'vz04')
+    </insert>
+
+    <!--修改公告内容-->
+    <update id="alterNotice">
+        UPDATE vz04.Notice
+        SET [Notice] = #{notice}, [LastEditUser] = N'vz04', [LastEditDate] = GETDATE()
+        WHERE [Notice_ID]=#{noticeId}
+    </update>
+
+    <!--根据班级id来删除这个班的公告-->
+    <delete id="deleteNoticeInClasses">
+        DELETE FROM vz04.Notice WHERE [Classes_ID]=#{classesId}
+    </delete>
+
+    <!--根据公告id来删除单条数据-->
+    <delete id="deleteNotice">
+        DELETE FROM vz04.Notice WHERE [Notice_ID]=#{noticeId}
+    </delete>
+</mapper>    

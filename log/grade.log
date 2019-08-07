@@ -1,0 +1,105 @@
+2019-08-02 13:12:37,426 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 12340 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-08-02 13:12:37,457 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 13:12:37,457 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-08-02 13:12:48,750 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 14.373 seconds (JVM running for 17.949)
+2019-08-02 13:21:13,391 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-08-02 13:21:13,427 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10000(String)
+2019-08-02 13:21:13,524 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-08-02 13:23:06,729 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-08-02 13:23:06,732 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-08-02 13:23:06,735 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-08-02 13:26:04,633 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Notice_ID] AS [noticeId], [Classes_ID] AS [classesId], [Notice] AS [notice] FROM vz04.Notice WHERE [Classes_ID] = ? 
+2019-08-02 13:26:04,634 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2019-08-02 13:26:04,640 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-08-02 13:29:16,612 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-08-02 13:29:16,612 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10000(String)
+2019-08-02 13:29:16,615 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-08-02 13:29:44,739 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Classes_ID] AS [classesId],[Name_Class] AS [nameClass] FROM vz04.Classes 
+2019-08-02 13:29:44,740 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-08-02 13:29:44,744 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2019-08-02 13:30:43,786 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT TOP(1) [Name_Class] AS [nameClass] FROM vz04.Classes WHERE Name_Class = ? 
+2019-08-02 13:30:43,787 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 三年级一班(String)
+2019-08-02 13:30:43,790 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-08-02 13:30:43,792 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO vz04.Classes([Name_Class],[InUser]) VALUES(?,N'vz04') 
+2019-08-02 13:30:43,794 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 三年级一班(String)
+2019-08-02 13:30:43,798 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-08-02 13:30:43,801 INFO (ClassesController.java:66)- 用户：1 创建了班级：三年级一班
+2019-08-02 13:30:55,153 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT TOP(1) [Name_Class] AS [nameClass] FROM vz04.Classes WHERE Name_Class = ? 
+2019-08-02 13:30:55,154 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 三年级一班(String)
+2019-08-02 13:30:55,157 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-08-02 13:32:39,960 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Classes_ID] AS [classesId],[Name_Class] AS [nameClass] FROM vz04.Classes 
+2019-08-02 13:32:39,962 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-08-02 13:32:39,967 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 7
+2019-08-02 13:33:46,841 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT TOP(1) [Name_Class] AS [nameClass] FROM vz04.Classes WHERE Name_Class = ? 
+2019-08-02 13:33:46,842 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 三年级一班(String)
+2019-08-02 13:33:46,846 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-08-02 13:34:14,782 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT TOP(1) [Name_Class] AS [nameClass] FROM vz04.Classes WHERE Name_Class = ? 
+2019-08-02 13:34:14,783 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 三年级二班(String)
+2019-08-02 13:34:14,785 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-08-02 13:34:14,787 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE vz04.Classes SET [Name_Class] = ?, [LastEditUser] = N'vz04', [LastEditDate] = GETDATE() WHERE [Classes_ID]=? 
+2019-08-02 13:34:14,788 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 三年级二班(String), 9(Integer)
+2019-08-02 13:34:14,790 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-08-02 13:34:14,792 INFO (ClassesController.java:95)- 用户：1 将9 班级的名称修改为：三年级二班
+2019-08-02 13:38:02,662 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE vz04.Account SET [Classes_ID] = 0, [LastEditUser] = N'vz04', [LastEditDate] = GETDATE() WHERE [Classes_ID]=? 
+2019-08-02 13:38:02,663 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2(Integer)
+2019-08-02 13:38:02,671 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-08-02 13:38:02,674 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: DELETE FROM vz04.Notice WHERE [Classes_ID]=? 
+2019-08-02 13:38:02,675 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2(Integer)
+2019-08-02 13:38:02,680 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-08-02 13:38:02,682 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: DELETE FROM vz04.Classes WHERE [Classes_ID]=? 
+2019-08-02 13:38:02,683 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2(Integer)
+2019-08-02 13:38:02,688 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-08-02 13:38:02,690 INFO (ClassesController.java:123)- 用户1 删除了与班级：2 相关的数据
+2019-08-02 13:39:30,611 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-08-02 13:39:30,612 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10002(String)
+2019-08-02 13:39:30,615 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-08-02 13:40:39,573 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-08-02 13:40:39,574 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10000(String)
+2019-08-02 13:40:39,580 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-08-02 13:43:38,900 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO vz04.Notice([Classes_ID],[Notice],[InUser]) VALUES(?,?,N'vz04') 
+2019-08-02 13:43:38,901 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer), 车市(String)
+2019-08-02 13:43:38,906 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-08-02 13:43:38,908 INFO (NoticeController.java:64)- 用户：1 向10 班级新增了一条公告
+2019-08-02 15:30:52,933 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 12340 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-08-02 15:30:52,934 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 15:30:52,935 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-08-02 15:30:57,941 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 5.189 seconds (JVM running for 8307.169)
+2019-08-02 15:31:04,127 INFO (StartupInfoLogger.java:50)- Starting ClassesMapperTest on wcmis022 with PID 13824 (started by vz04 in D:\Projects\grade)
+2019-08-02 15:31:04,129 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 15:31:04,130 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-08-02 15:31:12,168 INFO (StartupInfoLogger.java:59)- Started ClassesMapperTest in 10.835 seconds (JVM running for 13.963)
+2019-08-02 15:31:13,775 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Name_Class] AS [nameClass] FROM vz04.Classes WHERE Classes_ID = ? 
+2019-08-02 15:31:13,830 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2019-08-02 15:31:13,952 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-08-02 15:31:36,840 INFO (StartupInfoLogger.java:50)- Starting ClassesMapperTest on wcmis022 with PID 11624 (started by vz04 in D:\Projects\grade)
+2019-08-02 15:31:36,841 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 15:31:36,843 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-08-02 15:31:46,942 INFO (StartupInfoLogger.java:59)- Started ClassesMapperTest in 12.687 seconds (JVM running for 14.883)
+2019-08-02 15:31:48,141 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Name_Class] AS [nameClass] FROM vz04.Classes WHERE Classes_ID = ? 
+2019-08-02 15:31:48,198 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-08-02 15:31:48,272 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-08-02 15:33:03,699 INFO (StartupInfoLogger.java:50)- Starting ClassesMapperTest on wcmis022 with PID 13960 (started by vz04 in D:\Projects\grade)
+2019-08-02 15:33:03,710 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 15:33:03,711 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-08-02 15:33:11,698 INFO (StartupInfoLogger.java:59)- Started ClassesMapperTest in 10.582 seconds (JVM running for 12.852)
+2019-08-02 15:33:13,238 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Name_Class] AS [nameClass] FROM vz04.Classes WHERE Classes_ID = ? 
+2019-08-02 15:33:13,317 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-08-02 15:33:13,353 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-08-02 15:33:40,463 INFO (StartupInfoLogger.java:50)- Starting ClassesMapperTest on wcmis022 with PID 14080 (started by vz04 in D:\Projects\grade)
+2019-08-02 15:33:40,465 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 15:33:40,465 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-08-02 15:33:48,087 INFO (StartupInfoLogger.java:59)- Started ClassesMapperTest in 9.658 seconds (JVM running for 13.507)
+2019-08-02 15:33:49,745 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Name_Class] AS [nameClass] FROM vz04.Classes WHERE Classes_ID = ? 
+2019-08-02 15:33:49,798 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2019-08-02 15:33:49,847 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-08-02 15:46:50,703 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 8384 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-08-02 15:46:50,708 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 15:46:50,709 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-08-02 15:46:59,135 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 11.362 seconds (JVM running for 12.726)
+2019-08-02 15:51:15,997 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 832 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-08-02 15:51:16,002 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-02 15:51:16,003 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-08-02 15:51:25,929 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 11.717 seconds (JVM running for 13.317)
+2019-08-02 15:52:09,784 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-08-02 15:52:09,844 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-08-02 15:52:09,887 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

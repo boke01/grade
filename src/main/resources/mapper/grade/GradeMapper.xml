@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.vz04.grade.mapper.grade.GradeMapper">
+
+    <!--添加成绩-->
+    <insert id="addGrade">
+        INSERT INTO vz04.Grade([Account_ID],[Course_ID],[Grade],[InUser])
+        VALUES(#{accontId},#{courseId},#{grade},N'vz04')
+    </insert>
+
+    <!--根据用户id与科目id查看成绩-->
+    <select id="checkGradeInAccont" resultType="com.vz04.grade.pojo.grade.GradeBean">
+        SELECT [Grade_ID] AS [gradeId],[Grade] AS [grade]
+        FROM vz04.Grade
+        WHERE [Account_ID] = #{accontId} AND [Course_ID] = #{courseId}
+    </select>
+
+    <!--根据班级id与科目id查看成绩-->
+    <select id="checkGradeInClasses" resultType="com.vz04.grade.pojo.grade.TranscriptBean">
+        SELECT g.[Grade_ID] AS [gradeId], a.[Account_ID] AS [accontId], a.[Account_Number] AS [accountNumber], g.[Grade] AS [grade]
+        FROM vz04.Account a JOIN vz04.Grade g ON a.Account_ID = g.Account_ID
+        WHERE a.[Classes_ID] = #{classesId} AND g.[Course_ID] = #{courseId}
+    </select>
+
+    <!--根据成绩id修改成绩-->
+    <update id="alterGrade">
+        UPDATE vz04.Grade
+        SET [Grade] = #{grade}, [LastEditUser] = N'vz04', [LastEditDate] = GETDATE()
+        WHERE [Grade_ID]=#{gradeId}
+    </update>
+
+    <!--根据科目id删除成绩-->
+    <delete id="deleteGrade">
+        DELETE FROM vz04.Grade WHERE [Course_ID]=#{courseId}
+    </delete>
+
+</mapper>    

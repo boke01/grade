@@ -1,0 +1,23 @@
+# mybatis configuration
+mybatis:
+  type-aliases-package: cn.codesheep.springbt_mybatis_sqlserver.entity
+  mapper-locations: classpath:mapper/*/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+# SqlServer linkage information
+spring:
+  datasource:
+    url: jdbc:sqlserver://10.16.78.26:4433;databasename=intern_test
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: intern_test
+    password: 123456
+
+#log configuration
+logging:
+  config: classpath:logback-grade.xml
+
+server:
+  port: 8080
+  servlet:
+    context-path: /grade

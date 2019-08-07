@@ -1,0 +1,342 @@
+2019-07-27 10:26:32,423 INFO (StartupInfoLogger.java:50)- Starting LogInTest on wcmis022 with PID 1048 (started by vz04 in D:\Projects\grade)
+2019-07-27 10:26:32,489 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 10:26:32,496 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 10:26:39,278 INFO (StartupInfoLogger.java:59)- Started LogInTest in 9.49 seconds (JVM running for 12.351)
+2019-07-27 10:26:40,842 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT Account_ID AS accountId, Account_Number AS accountNumber, Password AS password, Identity AS identity, Classes_ID AS classesId FROM vz04.Account WHERE Account_Number = N? 
+2019-07-27 10:26:40,887 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10000(String)
+2019-07-27 10:27:49,266 INFO (StartupInfoLogger.java:50)- Starting LogInTest on wcmis022 with PID 10728 (started by vz04 in D:\Projects\grade)
+2019-07-27 10:27:49,268 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 10:27:49,268 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 10:27:59,402 INFO (StartupInfoLogger.java:59)- Started LogInTest in 11.613 seconds (JVM running for 13.947)
+2019-07-27 10:28:01,729 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT Account_ID AS accountId, Account_Number AS accountNumber, Password AS password, Identity AS identity, Classes_ID AS classesId FROM vz04.Account WHERE Account_Number = ? 
+2019-07-27 10:28:01,844 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10000(String)
+2019-07-27 10:47:56,931 INFO (StartupInfoLogger.java:50)- Starting LogInTest on wcmis022 with PID 8088 (started by vz04 in D:\Projects\grade)
+2019-07-27 10:47:56,931 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 10:47:56,931 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 10:48:03,330 INFO (StartupInfoLogger.java:59)- Started LogInTest in 8.849 seconds (JVM running for 10.809)
+2019-07-27 10:48:04,577 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 10:48:04,609 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10000(String)
+2019-07-27 10:48:04,671 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 10:48:04,687 INFO (LogInTest.java:36)- AccountBean{accountId=1, accountNumber='10000', password='e10adc3949ba59abbe56e057f20f883e', identity=0, classesId=0}
+2019-07-27 10:49:00,441 INFO (StartupInfoLogger.java:50)- Starting LogInTest on wcmis022 with PID 8128 (started by vz04 in D:\Projects\grade)
+2019-07-27 10:49:00,443 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 10:49:00,444 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 10:49:07,645 INFO (StartupInfoLogger.java:59)- Started LogInTest in 8.773 seconds (JVM running for 11.08)
+2019-07-27 10:49:09,022 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = N? 
+2019-07-27 10:49:09,100 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10000(String)
+2019-07-27 10:49:45,117 INFO (StartupInfoLogger.java:50)- Starting LogInTest on wcmis022 with PID 5560 (started by vz04 in D:\Projects\grade)
+2019-07-27 10:49:45,122 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 10:49:45,124 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 10:49:51,710 INFO (StartupInfoLogger.java:59)- Started LogInTest in 8.776 seconds (JVM running for 11.311)
+2019-07-27 10:49:52,803 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 10:49:52,834 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10000(String)
+2019-07-27 10:49:52,898 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 10:49:52,915 INFO (LogInTest.java:36)- AccountBean{accountId=1, accountNumber='10000', password='e10adc3949ba59abbe56e057f20f883e', identity=0, classesId=0}
+2019-07-27 11:06:48,645 INFO (StartupInfoLogger.java:50)- Starting LoginTest on wcmis022 with PID 9208 (started by vz04 in D:\Projects\grade)
+2019-07-27 11:06:48,646 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 11:06:48,647 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 11:06:55,622 INFO (StartupInfoLogger.java:59)- Started LoginTest in 9.14 seconds (JVM running for 11.506)
+2019-07-27 11:06:56,742 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 11:06:56,789 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10000(String)
+2019-07-27 11:06:56,836 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 11:06:56,851 INFO (LoginTest.java:36)- AccountBean{accountId=1, accountNumber='10000', password='e10adc3949ba59abbe56e057f20f883e', identity=0, classesId=0}
+2019-07-27 11:07:22,066 INFO (StartupInfoLogger.java:50)- Starting LoginTest on wcmis022 with PID 11512 (started by vz04 in D:\Projects\grade)
+2019-07-27 11:07:22,068 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 11:07:22,069 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 11:07:28,798 INFO (StartupInfoLogger.java:59)- Started LoginTest in 8.716 seconds (JVM running for 10.721)
+2019-07-27 11:07:29,916 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 11:07:29,957 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10009(String)
+2019-07-27 11:07:29,982 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-07-27 11:09:45,091 INFO (StartupInfoLogger.java:50)- Starting LoginTest on wcmis022 with PID 2332 (started by vz04 in D:\Projects\grade)
+2019-07-27 11:09:45,093 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 11:09:45,094 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 11:09:52,372 INFO (StartupInfoLogger.java:59)- Started LoginTest in 9.748 seconds (JVM running for 11.721)
+2019-07-27 11:09:53,666 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 11:09:53,713 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10009(String)
+2019-07-27 11:09:53,738 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-07-27 11:10:20,743 INFO (StartupInfoLogger.java:50)- Starting LoginTest on wcmis022 with PID 4248 (started by vz04 in D:\Projects\grade)
+2019-07-27 11:10:20,745 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 11:10:20,746 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 11:10:27,383 INFO (StartupInfoLogger.java:59)- Started LoginTest in 9.172 seconds (JVM running for 11.43)
+2019-07-27 11:10:28,439 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 11:10:28,484 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10009(String)
+2019-07-27 11:10:28,521 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-07-27 11:10:28,546 INFO (LoginTest.java:37)- 数据为空
+2019-07-27 13:08:17,314 INFO (StartupInfoLogger.java:50)- Starting LoginTest on wcmis022 with PID 8700 (started by vz04 in D:\Projects\grade)
+2019-07-27 13:08:17,326 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 13:08:17,328 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 13:08:25,135 INFO (StartupInfoLogger.java:59)- Started LoginTest in 10.346 seconds (JVM running for 13.789)
+2019-07-27 13:08:27,211 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 13:08:27,259 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10000(String)
+2019-07-27 13:08:27,310 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 13:08:27,369 INFO (LoginTest.java:60)- accountId:1
+2019-07-27 13:08:27,369 INFO (LoginTest.java:60)- classesId:0
+2019-07-27 13:08:27,369 INFO (LoginTest.java:60)- identity:0
+2019-07-27 13:08:27,370 INFO (LoginTest.java:60)- message:登录成功
+2019-07-27 13:09:13,045 INFO (StartupInfoLogger.java:50)- Starting LoginTest on wcmis022 with PID 3200 (started by vz04 in D:\Projects\grade)
+2019-07-27 13:09:13,045 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 13:09:13,076 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 13:09:19,483 INFO (StartupInfoLogger.java:59)- Started LoginTest in 8.31 seconds (JVM running for 10.202)
+2019-07-27 13:09:20,849 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 13:09:20,880 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 100001(String)
+2019-07-27 13:09:20,895 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-07-27 13:09:20,927 INFO (LoginTest.java:60)- message:用户不存在
+2019-07-27 13:09:37,650 INFO (StartupInfoLogger.java:50)- Starting LoginTest on wcmis022 with PID 7012 (started by vz04 in D:\Projects\grade)
+2019-07-27 13:09:37,650 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 13:09:37,650 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 13:09:43,831 INFO (StartupInfoLogger.java:59)- Started LoginTest in 8.33 seconds (JVM running for 10.134)
+2019-07-27 13:09:45,356 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 13:09:45,418 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10000(String)
+2019-07-27 13:09:45,449 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 13:09:45,465 INFO (LoginTest.java:60)- message:密码错误
+2019-07-27 13:10:23,218 INFO (StartupInfoLogger.java:50)- Starting LoginTest on wcmis022 with PID 6268 (started by vz04 in D:\Projects\grade)
+2019-07-27 13:10:23,218 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 13:10:23,218 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 13:10:28,823 INFO (StartupInfoLogger.java:59)- Started LoginTest in 8.22 seconds (JVM running for 10.05)
+2019-07-27 13:10:30,062 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 13:10:30,094 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 13:10:30,125 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 13:10:30,140 INFO (LoginTest.java:60)- accountId:2
+2019-07-27 13:10:30,140 INFO (LoginTest.java:60)- classesId:0
+2019-07-27 13:10:30,140 INFO (LoginTest.java:60)- identity:1
+2019-07-27 13:10:30,140 INFO (LoginTest.java:60)- message:登录成功
+2019-07-27 14:12:24,616 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 11068 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:12:24,631 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:12:24,631 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:12:32,997 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 9.63 seconds (JVM running for 10.711)
+2019-07-27 14:17:31,715 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:17:31,754 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2019-07-27 14:17:31,780 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-07-27 14:18:19,228 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:18:19,229 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2019-07-27 14:18:19,234 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-07-27 14:18:59,085 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:18:59,086 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2019-07-27 14:18:59,088 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-07-27 14:20:44,565 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:20:44,566 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2019-07-27 14:20:44,569 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-07-27 14:20:49,758 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:20:49,758 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2019-07-27 14:20:49,760 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-07-27 14:21:30,736 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:21:30,737 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2019-07-27 14:21:30,738 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-07-27 14:22:02,463 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 10840 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:22:02,469 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:22:02,470 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:22:31,010 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 6348 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:22:31,011 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:22:31,011 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:22:39,687 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 11.011 seconds (JVM running for 12.495)
+2019-07-27 14:22:45,681 INFO (LoginController.java:30)- AccountBean{accountId=null, accountNumber='null', password='null', identity=null, classesId=null}
+2019-07-27 14:25:54,868 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 4652 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:25:54,940 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:25:54,940 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:26:03,076 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 11.316 seconds (JVM running for 12.455)
+2019-07-27 14:26:09,778 INFO (LoginController.java:31)- User{accountNumber='null', password='null'}
+2019-07-27 14:27:22,696 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 4840 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:27:22,702 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:27:22,702 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:27:30,740 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 9.816 seconds (JVM running for 12.638)
+2019-07-27 14:27:39,203 INFO (LoginController.java:32)- User{accountNumber='10001', password='123456'}
+2019-07-27 14:28:02,974 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 4552 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:28:02,982 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:28:02,983 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:28:10,337 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 9.872 seconds (JVM running for 11.443)
+2019-07-27 14:28:15,787 INFO (LoginController.java:32)- AccountBean{accountId=null, accountNumber='10001', password='123456', identity=null, classesId=null}
+2019-07-27 14:29:52,135 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 7360 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:29:52,142 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:29:52,146 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:30:00,603 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 10.401 seconds (JVM running for 11.754)
+2019-07-27 14:30:08,731 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:30:08,824 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 14:30:08,895 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 14:30:43,409 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 6924 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:30:43,416 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:30:43,417 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:30:51,563 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 9.4 seconds (JVM running for 10.772)
+2019-07-27 14:33:19,861 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:33:20,465 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 14:33:20,790 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 14:35:47,946 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 8456 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:35:47,959 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:35:47,960 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:35:56,747 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 9.918 seconds (JVM running for 10.927)
+2019-07-27 14:36:07,567 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:36:07,614 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 14:36:07,651 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 14:36:07,670 INFO (LoginController.java:33)- {accountId=2, classesId=0, identity=1, message=登录成功}
+2019-07-27 14:37:13,699 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 11268 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:37:13,715 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:37:13,716 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:37:21,597 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 10.433 seconds (JVM running for 11.924)
+2019-07-27 14:37:27,569 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:37:27,647 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 14:37:27,717 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 14:37:27,751 INFO (LoginController.java:33)- {accountId=2, classesId=0, identity=1, message=登录成功}
+2019-07-27 14:37:27,753 INFO (LoginController.java:34)- com.vz04.grade.pojo.msg.Msg@9aa7970
+2019-07-27 14:38:59,395 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 8140 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:38:59,404 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:38:59,406 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:39:08,927 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 10.64 seconds (JVM running for 11.671)
+2019-07-27 14:39:14,831 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:39:14,945 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 14:39:15,046 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 14:39:15,068 INFO (LoginController.java:33)- {accountId=2, classesId=0, identity=1, message=登录成功}
+2019-07-27 14:41:54,788 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 8468 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:41:54,844 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:41:54,845 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:42:04,148 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 10.753 seconds (JVM running for 12.124)
+2019-07-27 14:42:10,507 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:42:10,551 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 14:42:10,590 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 14:42:10,617 INFO (LoginController.java:33)- {accountId=2, classesId=0, identity=1, message=登录成功}
+2019-07-27 14:45:41,863 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 13096 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:45:41,870 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:45:41,872 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:45:51,072 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 10.761 seconds (JVM running for 11.947)
+2019-07-27 14:46:34,453 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:46:34,500 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 14:46:34,531 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 14:46:34,547 INFO (LoginController.java:30)- {accountId=2, classesId=0, identity=1, message=登录成功}
+2019-07-27 14:50:04,643 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:50:04,643 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 14:50:04,643 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 14:50:04,643 INFO (LoginController.java:30)- {accountId=2, classesId=0, identity=1, message=登录成功}
+2019-07-27 14:51:08,202 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 12532 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:51:08,202 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:51:08,202 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:51:15,973 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 9.732 seconds (JVM running for 10.916)
+2019-07-27 14:51:22,500 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:51:22,547 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 14:51:22,589 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 14:51:36,334 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:51:36,336 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 14:51:36,346 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 14:55:42,108 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 13212 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 14:55:42,112 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 14:55:42,113 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 14:55:52,496 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 11.766 seconds (JVM running for 13.059)
+2019-07-27 14:56:05,033 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 14:56:05,084 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 14:56:05,139 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 15:01:17,672 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 13016 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 15:01:17,676 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 15:01:17,677 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 15:01:37,925 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 6344 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 15:01:37,930 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 15:01:37,931 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 15:01:45,750 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 8.878 seconds (JVM running for 9.842)
+2019-07-27 15:01:56,301 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 15:01:56,348 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 15:01:56,387 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 15:03:47,638 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 1792 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 15:03:47,643 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 15:03:47,644 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 15:03:56,267 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 9.709 seconds (JVM running for 10.677)
+2019-07-27 15:04:12,423 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 15:04:12,481 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 15:04:12,519 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 15:10:05,084 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 11660 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 15:10:05,092 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 15:10:05,093 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 15:10:13,542 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 9.614 seconds (JVM running for 10.708)
+2019-07-27 15:11:01,328 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 15:11:01,359 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 15:11:01,391 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 15:13:41,524 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 9344 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 15:13:41,529 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 15:13:41,530 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 15:13:49,335 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 8.823 seconds (JVM running for 9.714)
+2019-07-27 15:14:06,670 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 15:14:06,706 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 15:14:06,738 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 15:15:45,543 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 11628 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 15:15:45,548 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 15:15:45,549 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 15:15:52,725 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 8.273 seconds (JVM running for 9.278)
+2019-07-27 15:16:13,896 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 15:16:13,933 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 15:16:13,980 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 15:35:58,630 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 11584 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 15:35:58,638 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 15:35:58,638 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 15:36:06,767 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 9.419 seconds (JVM running for 10.396)
+2019-07-27 15:36:20,112 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 15:36:20,152 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 15:36:20,189 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 15:37:09,959 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 13032 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 15:37:09,963 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 15:37:09,964 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 15:37:17,882 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 8.959 seconds (JVM running for 9.923)
+2019-07-27 15:38:33,889 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 9396 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 15:38:33,924 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 15:38:33,925 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 15:38:42,890 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 10.341 seconds (JVM running for 11.45)
+2019-07-27 15:39:18,146 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 15:39:18,224 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 15:39:18,284 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 15:45:02,542 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 8668 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 15:45:02,550 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 15:45:02,551 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 15:45:11,487 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 11.045 seconds (JVM running for 12.141)
+2019-07-27 15:45:33,224 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 15:45:33,263 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 15:45:33,301 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 16:08:23,425 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 1092 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 16:08:23,425 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 16:08:23,425 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 16:08:30,378 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 8.023 seconds (JVM running for 8.872)
+2019-07-27 16:08:49,353 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 16:08:49,405 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 16:08:49,432 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 16:34:15,196 INFO (StartupInfoLogger.java:50)- Starting ClassesTest on wcmis022 with PID 3468 (started by vz04 in D:\Projects\grade)
+2019-07-27 16:34:15,198 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 16:34:15,199 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 16:34:21,474 INFO (StartupInfoLogger.java:59)- Started ClassesTest in 8.187 seconds (JVM running for 10.1)
+2019-07-27 16:34:22,605 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO vz04.Classes([Name_Class]) VALUES(?) 
+2019-07-27 16:34:22,647 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 一年级一班(String)
+2019-07-27 16:34:22,653 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-07-27 16:34:22,680 DEBUG (ClassesTest.java:34)- 1
+2019-07-27 16:39:42,215 INFO (StartupInfoLogger.java:50)- Starting ClassesTest on wcmis022 with PID 9684 (started by vz04 in D:\Projects\grade)
+2019-07-27 16:39:42,217 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 16:39:42,218 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 16:39:59,845 INFO (StartupInfoLogger.java:59)- Started ClassesTest in 19.847 seconds (JVM running for 21.826)
+2019-07-27 16:40:01,757 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO vz04.Classes([Name_Class],[InUser]) VALUES(?,"vz04") 
+2019-07-27 16:40:01,827 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 一年级二班(String)
+2019-07-27 16:41:23,044 INFO (StartupInfoLogger.java:50)- Starting ClassesTest on wcmis022 with PID 5088 (started by vz04 in D:\Projects\grade)
+2019-07-27 16:41:23,048 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 16:41:23,050 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 16:41:29,880 INFO (StartupInfoLogger.java:59)- Started ClassesTest in 8.926 seconds (JVM running for 10.821)
+2019-07-27 16:41:31,203 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO vz04.Classes([Name_Class],[InUser]) VALUES(?,N'vz04') 
+2019-07-27 16:41:31,302 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 一年级二班(String)
+2019-07-27 16:41:31,312 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-07-27 16:41:31,345 DEBUG (ClassesTest.java:34)- 1
+2019-07-27 17:23:29,948 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber], [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId] FROM vz04.Account WHERE [Account_Number] = ? 
+2019-07-27 17:23:29,957 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10001(String)
+2019-07-27 17:23:29,964 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-07-27 17:29:04,643 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 11164 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 17:29:04,649 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 17:29:04,650 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 17:31:18,499 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 9900 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 17:31:18,513 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 17:31:18,514 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 17:32:19,712 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 964 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 17:32:19,717 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 17:32:19,719 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 17:33:35,867 INFO (StartupInfoLogger.java:50)- Starting ClassesTest on wcmis022 with PID 10268 (started by vz04 in D:\Projects\grade)
+2019-07-27 17:33:35,869 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 17:33:35,872 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 17:33:42,234 INFO (StartupInfoLogger.java:59)- Started ClassesTest in 8.74 seconds (JVM running for 10.791)
+2019-07-27 17:33:43,286 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO vz04.Classes([Name_Class],[InUser]) VALUES(?,N'vz04') 
+2019-07-27 17:33:43,330 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 一年级三班(String)
+2019-07-27 17:33:43,346 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-07-27 17:33:43,364 DEBUG (ClassesTest.java:34)- 1
+2019-07-27 17:35:02,183 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 9688 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 17:35:02,187 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 17:35:02,188 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 17:36:55,159 INFO (StartupInfoLogger.java:50)- Starting GradeApplication on wcmis022 with PID 8096 (D:\Projects\grade\target\classes started by vz04 in D:\Projects\grade)
+2019-07-27 17:36:55,165 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-27 17:36:55,166 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-27 17:37:03,696 INFO (StartupInfoLogger.java:59)- Started GradeApplication in 9.812 seconds (JVM running for 10.771)

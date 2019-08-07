@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.vz04.grade.mapper.login.LoginMapper">
+    <!--通过账号查账户信息-->
+    <select id="getAccount" resultType="com.vz04.grade.pojo.login.AccountBean">
+        SELECT [Account_ID] AS [accountId], [Account_Number] AS [accountNumber],
+            [Password] AS [password], [Identity] AS [identity], [Classes_ID] AS [classesId]
+        FROM vz04.Account
+        WHERE [Account_Number] = #{accountNumber}
+    </select>
+
+    <!--通过班级id将学生的班级id改为0-->
+    <update id="alterClasseId">
+        UPDATE vz04.Account
+        SET [Classes_ID] = 0, [LastEditUser] = N'vz04', [LastEditDate] = GETDATE()
+        WHERE [Classes_ID]=#{classesId}
+    </update>
+
+    <!--通过账户id修改班级id-->
+    <update id="alterClassesIdInAccountId">
+        UPDATE vz04.Account
+        SET [Classes_ID] = #{classesId}, [LastEditUser] = N'vz04', [LastEditDate] = GETDATE()
+        WHERE [Account_ID]= #{accountId}
+    </update>
+</mapper>    

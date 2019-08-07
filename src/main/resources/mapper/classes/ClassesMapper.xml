@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.vz04.grade.mapper.classes.ClassesMapper">
+    <!--查看全部班级-->
+    <select id="checkAllClasses" resultType="com.vz04.grade.pojo.classec.ClassesBean">
+        SELECT [Classes_ID] AS [classesId],[Name_Class] AS [nameClass]
+        FROM vz04.Classes
+    </select>
+
+    <!--查看单个班级-->
+    <select id="checkClasses" resultType="com.vz04.grade.pojo.classec.ClassesBean">
+        SELECT TOP(1) [Name_Class] AS [nameClass]
+        FROM vz04.Classes
+        WHERE Name_Class = #{nameClass}
+    </select>
+
+    <!--查看单个班级通过id-->
+    <select id="checkClassesInid" resultType="com.vz04.grade.pojo.classec.ClassesBean">
+        SELECT [Name_Class] AS [nameClass]
+        FROM vz04.Classes
+        WHERE Classes_ID = #{classesId}
+    </select>
+
+    <!--添加班级-->
+    <insert id="addClasses" useGeneratedKeys="true" keyProperty="Classes_ID">
+        INSERT INTO vz04.Classes([Name_Class],[InUser])
+        VALUES(#{nameClass},N'vz04')
+    </insert>
+
+    <!--修改班级名-->
+    <update id="alterClassses">
+        UPDATE vz04.Classes
+        SET [Name_Class] = #{nameClass}, [LastEditUser] = N'vz04', [LastEditDate] = GETDATE()
+        WHERE [Classes_ID]=#{classesId}
+    </update>
+
+    <!--删除班级-->
+    <delete id="deleteClasses">
+        DELETE FROM vz04.Classes WHERE [Classes_ID]=#{classesId}
+    </delete>
+
+</mapper>    

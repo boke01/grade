@@ -1,0 +1,5 @@
+2019-07-26 16:48:57,941 INFO (StartupInfoLogger.java:50)- Starting GradeApplicationTests on wcmis022 with PID 7280 (started by vz04 in D:\Projects\grade)
+2019-07-26 16:48:57,962 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-26 16:48:57,963 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-26 16:49:06,277 INFO (StartupInfoLogger.java:59)- Started GradeApplicationTests in 10.844 seconds (JVM running for 15.131)
+2019-07-26 16:49:07,158 INFO (GradeApplicationTests.java:39)- e10adc3949ba59abbe56e057f20f883e
